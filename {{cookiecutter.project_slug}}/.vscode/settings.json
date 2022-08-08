@@ -1,0 +1,38 @@
+{
+    "editor.codeActionsOnSave": {
+        "source.fixAll": true
+        // "source.organizeImports": true // 遅い
+    },
+    "editor.formatOnSave": true,
+    "editor.wordWrapColumn": 200,
+    "files.insertFinalNewline": true,
+    "prettier.printWidth": 500,
+    "python.analysis.completeFunctionParens": true,
+    "python.analysis.extraPaths": [
+        "~/.pyenv/versions/miniforge3/envs/python39"
+    ],
+    "python.autoComplete.extraPaths": [
+        "~/.pyenv/versions/miniforge3/envs/python39"
+    ],
+    "python.defaultInterpreterPath": "~/.pyenv/versions/miniforge3/envs/python39",
+    "python.envFile": "${workspaceFolder}/.env",
+    "python.formatting.blackArgs": ["--line-length=79"],
+    "python.formatting.blackPath": "~/.pyenv/shims/black",
+    "python.formatting.provider": "black",
+    "python.linting.flake8Args": ["max-line-length=100"],
+    "python.linting.flake8CategorySeverity.E": "Warning",
+    "python.linting.flake8CategorySeverity.F": "Warning",
+    "python.linting.flake8Path": "~/.pyenv/shims/flake8",
+    "python.linting.mypyArgs": [
+        "--follow-imports=skip",
+        "--ignore-missing-imports",
+        "--disallow-untyped-defs",
+        "--disallow-untyped-calls",
+        "--warn-return-any",
+        "--no-implicit-optional"
+    ],
+    "python.linting.mypyCategorySeverity.error": "Information",
+    "python.linting.mypyEnabled": true,
+    "python.linting.mypyPath": "~/.pyenv/shims/mypy",
+    "python.sortImports.path": "~/.pyenv/shims/isort"
+}
