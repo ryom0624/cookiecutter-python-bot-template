@@ -41,3 +41,25 @@ This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypack
 
 .. _Cookiecutter: https://github.com/audreyr/cookiecutter
 .. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
+
+
+Quickstart
+----------
+
+Dependencies pyenv and miniforge. Install before using. (Python version is v3.9.x)
+
+If you haven't create python virtual environment::
+
+        conda create --file environment.yaml
+
+If you have created python virtual enviroment::
+
+        conda activate [environment_name]
+
+Install dependencies packages your python virtual environment::
+
+        conda install --file conda_requirements.txt
+
+Execute::
+
+        python -m [your_project_name]

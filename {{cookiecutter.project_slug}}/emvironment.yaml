@@ -1,0 +1,25 @@
+name: python39
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9
+  - numpy
+  - pandas
+  - python-dotenv
+  - scipy
+  - scikit-learn
+  - lightgbm
+  - xgboost
+  - jupyter
+  - matplotlib
+  - seaborn
+  - geopandas
+  - opencv
+  - flake8
+  - black
+  - isort
+  - mypy
+  - pip:
+      - optuna
+      - seaborn-analyzer
+prefix: /Users/two_0109/miniforge3/envs/python39

@@ -51,6 +51,10 @@ Windows:
 Quickstart
 ----------
 
+Using pyenv and miniforge environment::
+
+    pyenv install miniforge3
+
 Install the latest Cookiecutter if you haven't installed it yet (this requires
 Cookiecutter 1.4.0 or higher)::
 
@@ -58,7 +62,7 @@ Cookiecutter 1.4.0 or higher)::
 
 Generate a Python package project::
 
-    cookiecutter https://github.com/audreyfeldroy/cookiecutter-pypackage.git
+    cookiecutter https://github.com/ryom0624/cookiecutter-pypackage.git
 
 Then:
 
